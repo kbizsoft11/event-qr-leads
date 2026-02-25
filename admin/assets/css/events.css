@@ -1,0 +1,162 @@
+.page-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.page-title {
+    font-size:24px;
+    font-weight:600;
+}
+
+.page-subtitle {
+    color:#6c757d;
+    font-size:14px;
+}
+
+.table thead {
+    background:#f8f9fa;
+}
+
+.table tbody tr:hover {
+    background:#f1f3f5;
+}
+
+.event-thumb {
+    width:80px;
+    height:80px;
+    object-fit:cover;
+    border-radius:8px;
+    border:1px solid #eee;
+}
+
+.empty-state {
+    text-align:center;
+    padding:40px;
+    color:#6c757d;
+}
+
+.empty-state h5 {
+    margin-top:10px;
+}
+
+.pagination {
+    justify-content:center;
+}
+
+/* ===== ADD EVENT PAGE ===== */
+
+.page-header {
+    margin-bottom: 25px;
+}
+
+.page-title {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.page-subtitle {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.form-card {
+    border-radius: 12px;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.upload-box {
+    border: 2px dashed #dee2e6;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    background: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.upload-box:hover {
+    background: #eef2f6;
+}
+
+.image-preview {
+    max-height: 200px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* ===== EDIT EVENT PAGE ===== */
+
+.editor-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.editor-title {
+    font-size:24px;
+    font-weight:600;
+}
+
+.section-card {
+    border-radius:12px;
+}
+
+.section-title {
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+.qr-preview img {
+    border-radius:8px;
+    border:1px solid #eee;
+}
+
+.image-uploader {
+    border:2px dashed #dee2e6;
+    padding:20px;
+    border-radius:10px;
+    background:#f8f9fa;
+}
+
+.image-uploader:hover {
+    background:#eef2f6;
+}
+
+/* ===== LEADS PAGE ===== */
+
+.page-header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.page-title {
+    font-size:24px;
+    font-weight:600;
+}
+
+.page-subtitle {
+    color:#6c757d;
+    font-size:14px;
+}
+
+.table thead {
+    background:#f8f9fa;
+}
+
+.table tbody tr:hover {
+    background:#f1f3f5;
+}
+
+.empty-state {
+    text-align:center;
+    padding:40px;
+    color:#6c757d;
+}

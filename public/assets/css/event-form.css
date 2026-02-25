@@ -1,0 +1,76 @@
+body {
+    background:#f4f6f9;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    height: 340px;
+    overflow: hidden;
+}
+
+.hero img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.hero-overlay {
+    position:absolute;
+    inset:0;
+    background:linear-gradient(to bottom, rgba(0,0,0,0.45), rgba(0,0,0,0.75));
+}
+
+.hero-content {
+    position:absolute;
+    bottom:30px;
+    left:30px;
+    color:white;
+}
+
+.event-title {
+    font-size:34px;
+    font-weight:700;
+}
+
+.badge-soft {
+    background:rgba(255,255,255,0.25);
+    padding:8px 14px;
+    border-radius:10px;
+    margin-right:10px;
+    font-size:14px;
+}
+
+/* DESCRIPTION */
+.description-card {
+    border-radius:14px;
+}
+
+/* FORM CARD */
+.form-card {
+    margin-top:-80px;
+    border-radius:18px;
+    border:none;
+}
+
+.form-control {
+    padding:14px;
+    border-radius:12px;
+}
+
+.btn-primary {
+    padding:14px;
+    border-radius:12px;
+    font-weight:600;
+    background:#0d6efd;
+    border:none;
+}
+
+.btn-primary:hover {
+    background:#0b5ed7;
+}
+
+h4 {
+    font-weight:600;
+}
