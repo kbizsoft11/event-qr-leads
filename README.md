@@ -33,6 +33,6 @@ Admins can manage events, view leads, filter data, and export to Excel.
 
 ## 📂 Project Structure
 
-For the Url configuration: config/app.php
-For the Database configuration: config/database.php
-TO create admin user need to run the script: config/create_admin.php
+- For the Url configuration: config/app.php
+- For the Database configuration: config/database.php
+- TO create admin user need to run the script: config/create_admin.php
